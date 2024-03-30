@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Josue Cisneros">
+    <meta name="description" content="Kevin Kaarl">
+    <title>Kevin Kaarl</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="kevinkaarl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <!--Start of my page header-->
+    <header id="top"> 
+        <img src="images/kkaarl.png" alt="site logo" width="58" height="58">
+        <div> 
+            <h1>Kevin Kaarl</h1>
+            <p>Know his music</p>
+        </div>
+    </header>
+
+    <!--Start of my navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Kevin Kaarl</a></li>
+            <li><a href="tours.html">Tour Dates</a></li>
+            <li><a href="prices.html">Ticket Prices</a></li>
+            <li class="active"><a href="delivery.html">Ticket Delivery</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!--Start of my page content-->
+    <main>
+        <h1>Ticket Delivery</h1>
+
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+                <label>First Name*<input type="text" name="fname" required></label>
+                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Email*<input type="text" name="email" required></label>
+                <label>Cell Number*<input type="tel" name="phone" required placeholder="987-555-1234"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="name">Name on Card*<input type="text" id="name" name="name" required></label>
+                <label for="address">Billing Address*<input type="text" id="address" name="address" required></label>
+                <label for="state">State*<input type="text" id="state" name="address" required></label>
+                <label for="zip code">Zip Code*<input type="text" id="zipcode" name="zipcode" required></label>
+                <label for="credit-card">Credit Card Number*<input type="text" id="credit-card" name="credit-card" required>
+                    <small>Please enter a valid 13-16 digit credit card number.</small>
+
+
+                <label for="expiration">Expiration Date (MM/YYYY)*</label>
+                    <input type="text" id="expiration" name="expiration" required>
+                    <small>Please enter the expiration date in the format MM/YYYY.</small>
+            </fieldset>
+    
+            <fieldset>
+                <legend> Delivery Method</legend>
+                    <label><input type="radio" name="method" value="mail">Mail Service (5-7 business days)</label>
+                    <label><input type="radio" name="method" value="kevin">Kevin Kaarl (20 days)</label>
+                    <label><input type="radio" name="method" value="email">Email (1hr)</label>
+            </fieldset>
+    
+    
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="front door" value="chosen">Front Door</label>
+                <label><input type="checkbox" name="mailbox" value="chosen">Mailbox</label>
+                <label><input type="checkbox" name="signature" value="chosen">Signature</label>
+               
+
+
+                <label> Preferred Delivery Time
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm and 5:00pm</option>
+                    <option value="evening">Between 5:00pm and 8:00pm</option>
+                </select>
+               
+            </fieldset>
+    
+            <label> Comments
+                <textarea name="comments"></textarea>
+            </label>
+
+
+
+            <input type="submit" value="Send Ticket Request">
+        </form>
+    </main>
+
+    <!--Start of my footer-->
+    <footer>
+        <p>&copy; 2024 | Josue Cisneros &bull; <a href="sampleemail@gmail.com">sampleemail@gmail.com</a></p>
+    </footer>
+    <a href="#top">Top of page</a>
+</body>
+</html>
+
+
+
