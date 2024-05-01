@@ -1,0 +1,203 @@
+
+
+
+
+
+
+/*---  This is my css page. ---*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    background-color:#ffffff
+}
+
+/*---  Header stuff here ---*/
+
+header {
+    background-color: #4f60cd;
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;
+}
+
+header h1{
+    margin: 0;
+    color: #ffffff;
+}
+
+header p {
+    margin: 0;
+    color: #ffffff;
+    letter-spacing: .5px;
+}
+
+header div {
+    padding-left: 2vw;
+}
+
+
+/*---  This is where I format the navigation. ---*/
+
+nav {
+    background-color:#eeeeee; 
+    padding: 1rem 2vw;
+    display: flex;
+    align-items: flex-end;  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #444444;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+
+}
+
+nav .active a {
+    background-color: #4f60cd;
+    background-image: linear-gradient(to bottom, #4f60cd, #6b7ce7);
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: rgb(255, 161, 107);
+}
+
+
+
+
+/*---  This is where I format the main section. ---*/
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #444444;
+}
+
+main h2 {
+    color: #444444;
+}
+
+main p {
+    color: #444444;
+    margin: 0 0 .5rem 0;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+  }
+
+  h1, p {
+    margin: 0 0 .5rem 0; 
+    padding: 0; 
+    text-align: left; 
+    line-height: 1.5; 
+  }
+
+
+  /*---  This is where I format the PACKAGE SECTION. ---*/
+
+  .package {
+    border: 1px solid #ccc; 
+    padding: 20px;
+    margin-bottom: 20px; 
+    overflow: hidden; 
+}
+
+.package h2, .package h3, .package p {
+    margin: 0;
+}
+
+.package h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.package h3 {
+    font-size: 20px; 
+    margin-bottom: 5px; 
+}
+
+.package p {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+    text-align: block;
+}
+
+ 
+/*---  This is where I format the footer. ---*/
+
+footer {
+    background-color: #4f60cd;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer{
+    font-style: normal;
+    background-color: #4f60cd;
+    padding: .5rem;
+    width: 100%;
+    border: 3px solid #4f60cd;
+    border-radius: 0rem;
+    margin: 20px; 
+    text-align: center;
+    clear:both;
+}
+
+footer a {
+    color: rgb(255, 161, 107);
+}
+
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
+
+/* Back to Top Link */
+a[href="#top"] {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(255, 161, 107);
+}
+
+/* Packages Page Styles */
+img.package {
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
